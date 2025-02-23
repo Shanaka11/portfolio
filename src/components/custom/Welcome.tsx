@@ -1,6 +1,7 @@
-import { Download, Github, Linkedin } from 'lucide-react';
+import { Download } from 'lucide-react';
 import { Button } from '../ui/button';
 import Logo from '/Logo.svg';
+import Social from './Social';
 const Welcome = () => {
 	return (
 		<section className='grid gap-1 grid-cols-[auto_auto]'>
@@ -18,24 +19,7 @@ const Welcome = () => {
 					<Button variant='outline' className='cursor-pointer mr-4' size='lg'>
 						Resume <Download />
 					</Button>
-					<a
-						href='https://www.linkedin.com/in/shanakaabeysinghe'
-						className='text-muted-foreground hover:text-foreground cursor-pointer'
-						rel='noopener noreferrer'
-						target='_blank'
-						title='LinkedIn'
-					>
-						<Linkedin />
-					</a>
-					<a
-						href='https://github.com/Shanaka11'
-						className='text-muted-foreground hover:text-foreground cursor-pointer'
-						rel='noopener noreferrer'
-						target='_blank'
-						title='LinkedIn'
-					>
-						<Github />
-					</a>
+					<Social />
 				</div>
 			</div>
 			<img

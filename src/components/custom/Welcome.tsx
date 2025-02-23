@@ -16,9 +16,15 @@ const Welcome = () => {
 					</p>
 				</div>
 				<div className='flex gap-4 mt-2 sm:mt-0 items-center'>
-					<Button variant='outline' className='cursor-pointer mr-4' size='lg'>
-						Resume <Download />
-					</Button>
+					<a
+						href='/Resume_Shanaka_Abeysinghe.pdf'
+						target='_blank'
+						rel='noreferrer noopener'
+					>
+						<Button variant='outline' className='cursor-pointer mr-4' size='lg'>
+							Resume <Download />
+						</Button>
+					</a>
 					<Social />
 				</div>
 			</div>

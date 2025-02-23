@@ -29,6 +29,22 @@
 			"demo": "https://iv-prep.vercel.app/",
 			"source": "https://github.com/Shanaka11/IvPrep",
 			"image": "./project_ivprep.png"
+		},
+		{
+			"title": "ExTracker",
+			"description": "A web application to keep track of your expenses and finanical goals",
+			"techStack": [
+				"NextJS",
+				"React",
+				"TypeScript",
+				"Tailwind CSS",
+				"Supabase",
+				"PostgreSQL",
+				"AuthJS"
+			],
+			"source": "https://github.com/Shanaka11/exp_tracker",
+			"demo": "https://github.com/Shanaka11/IvPrep",
+			"image": "./project_extrack.png"
 		}
 	]
 }

@@ -7,11 +7,11 @@
 			"href": "/",
 			"logo": "./Logo.svg",
 			"descriotion": [
-				"Developing web applications using React, Node.js, and MongoDB.",
-				"Developing mobile applications using React Native.",
-				"Developing APIs using Node.js and Express.",
-				"Developing and maintaining databases using MongoDB.",
-				"Developing and maintaining websites using HTML, CSS, and JavaScript."
+				"Implemented a range of Frontend features using React, NextJS and Typescript.",
+				"Developing APIs using Node.js and Express with Typescript.",
+				"Automated tests using Jest and Vitest.",
+				"Developing and maintaining websites using HTML, CSS, and JavaScript.",
+				"Managed PostgreSQL, MySQL databasese using drizzle and prisma."
 			]
 		},
 		{
@@ -21,10 +21,30 @@
 			"href": "https://www.axcenze.com/",
 			"logo": "./axcenze_logo.jpeg",
 			"descriotion": [
-				"Developing and maintaining IFS Applications ERP.",
-				"Developing and maintaining IFS Applications ERP customizations.",
-				"Developing and maintaining IFS Applications ERP integrations.",
-				"Developing and maintaining IFS Applications ERP reports."
+				"Developed customizations on CAMRO product of IFS Cloud",
+				"Implemented integrations between IFS and Zatca E-Invoice system"
+			]
+		},
+		{
+			"time": "Jan 2020 - Nov 2021",
+			"company": "Addovation",
+			"position": "Software Engineer",
+			"href": "https://www.addovation.com/",
+			"logo": "./addovation_logo.jpeg",
+			"descriotion": [
+				"Developed integrations between IFS and other systems using IFS Connect",
+				"Upgraded legacy cusomizations to IFS Cloud"
+			]
+		},
+		{
+			"time": "Nov 2016 - Jan 2020",
+			"company": "IFS",
+			"position": "Software Engineer",
+			"href": "https://www.ifs.com/",
+			"logo": "./ifs_logo.jpeg",
+			"descriotion": [
+				"Implemented custom solutions for IFS Applications ERP using C# and PLSQL",
+				"Designed and Developed reports using IFS Report Designer"
 			]
 		}
 	]

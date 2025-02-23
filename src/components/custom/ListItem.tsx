@@ -1,8 +1,12 @@
 const ListItem = () => {
 	return (
 		<li className='relative ml-10 py-4'>
-			<a className='absolute top-5 -left-17'>
-				<div className='rounded-full bg-black h-13 w-13'></div>
+			<a className='absolute top-5 -left-17' href='/'>
+				<img
+					src='./Logo.svg'
+					alt='Freelancer'
+					className='rounded-full h-13 w-13 bg-white border'
+				></img>
 			</a>
 			<div className=' flex flex-1 flex-col justify-start gap-1'>
 				<p className='text-muted-foreground text-xs'>Mar 2023 - Present</p>

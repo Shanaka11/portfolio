@@ -1,9 +1,7 @@
-import { MoonIcon } from 'lucide-react';
 import './App.css';
-import Welcome from './components/custom/Welcome';
+import Homepage from '@/pages/Homepage';
 import { Button } from './components/ui/button';
-import Eduperience from './components/custom/Eduperience';
-import RecentProjects from './components/custom/RecentProjects';
+import { MoonIcon } from 'lucide-react';
 import Social from './components/custom/Social';
 
 function App() {
@@ -25,11 +23,7 @@ function App() {
 					</div>
 				</nav>
 			</div>
-			<main className='w-full md:w-2xl mx-auto px-8 md:px-0 flex flex-col gap-16 pb-16'>
-				<Welcome />
-				<Eduperience />
-				<RecentProjects />
-			</main>
+			<Homepage />
 			<footer className='flex flex-col pb-16 items-center justify-center sm:flex-row-reverse sm:justify-between w-full md:w-2xl mx-auto px-8 md:px-0'>
 				<div className='flex gap-4 mb-8 sm:mb-0'>
 					<Social />

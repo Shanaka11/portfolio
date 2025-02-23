@@ -1,0 +1,34 @@
+{
+	"projects": [
+		{
+			"title": "Portfolio",
+			"description": "A minimalistic portfolio website to showcase my work. built using react and typescript",
+			"techStack": [
+				"React",
+				"TypeScript",
+				"React Router",
+				"Tailwind CSS",
+				"vite"
+			],
+			"demo": "/",
+			"source": "/",
+			"image": "./project_portfolio.png"
+		},
+		{
+			"title": "IvPrep",
+			"description": "A quiz generator for software engineers to prepare for technical interviews. built using react and typescript",
+			"techStack": [
+				"NextJS",
+				"React",
+				"TypeScript",
+				"Tailwind CSS",
+				"Supabase",
+				"PostgreSQL",
+				"Clerk"
+			],
+			"demo": "https://iv-prep.vercel.app/",
+			"source": "https://github.com/Shanaka11/IvPrep",
+			"image": "./project_ivprep.png"
+		}
+	]
+}

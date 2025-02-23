@@ -1,3 +1,5 @@
+import careerData from '@/data/career.json';
+import educationData from '@/data/education.json';
 import { Card } from '../ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '../ui/tabs';
 import ListItem from './ListItem';
@@ -17,15 +19,24 @@ const Eduperience = () => {
 				<Card>
 					<div>
 						<ul className='ml-10 border-l'>
-							<ListItem />
-							<ListItem />
-							<ListItem />
-							<ListItem />
+							{careerData.career.map((episode) => (
+								<ListItem episode={episode} key={episode.company} />
+							))}
 						</ul>
 					</div>
 				</Card>
 			</TabsContent>
-			<TabsContent value='Education'>Change your password here.</TabsContent>
+			<TabsContent value='Education'>
+				<Card>
+					<div>
+						<ul className='ml-10 border-l'>
+							{educationData.education.map((episode) => (
+								<ListItem episode={episode} key={episode.company} />
+							))}
+						</ul>
+					</div>
+				</Card>
+			</TabsContent>
 		</Tabs>
 	);
 };

@@ -1,4 +1,4 @@
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 const Social = () => {
 	return (
@@ -20,6 +20,15 @@ const Social = () => {
 				title='LinkedIn'
 			>
 				<Github />
+			</a>
+			<a
+				href='mailto:shanaka.abeysinghe.se@gmail.com'
+				className='text-muted-foreground hover:text-foreground cursor-pointer'
+				rel='noopener noreferrer'
+				target='_blank'
+				title='Email'
+			>
+				<Mail />
 			</a>
 		</>
 	);

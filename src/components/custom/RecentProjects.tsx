@@ -1,3 +1,4 @@
+import projectdata from '@/data/project.json';
 import { ArrowRight } from 'lucide-react';
 import ProjectCard from './ProjectCard';
 
@@ -10,11 +11,8 @@ const RecentProjects = () => {
 					View More <ArrowRight />
 				</a>
 			</div>
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
+			<ProjectCard project={projectdata.projects[0]} />
+			<ProjectCard project={projectdata.projects[1]} />
 		</div>
 	);
 };

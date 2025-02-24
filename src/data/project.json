@@ -10,8 +10,8 @@
 				"Tailwind CSS",
 				"vite"
 			],
-			"demo": "/",
-			"source": "/",
+			"demo": "https://shanakaabeysinghe.com/",
+			"source": "https://github.com/Shanaka11/portfolio",
 			"image": "./project_portfolio.png"
 		},
 		{
@@ -43,7 +43,7 @@
 				"AuthJS"
 			],
 			"source": "https://github.com/Shanaka11/exp_tracker",
-			"demo": "https://github.com/Shanaka11/IvPrep",
+			"demo": "https://exp-tracker-theta.vercel.app",
 			"image": "./project_extrack.png"
 		},
 		{

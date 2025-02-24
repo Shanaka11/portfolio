@@ -1,7 +1,7 @@
 import './App.css';
 import Homepage from '@/pages/Homepage';
 import { Button } from './components/ui/button';
-import { MoonIcon } from 'lucide-react';
+import { MoonIcon, SunIcon } from 'lucide-react';
 import Social from './components/custom/Social';
 import { Routes, Route, Link } from 'react-router';
 import ProjectsPage from './pages/ProjectsPage';
@@ -53,7 +53,7 @@ function App() {
 							onClick={handleThemeChange}
 							className='cursor-pointer'
 						>
-							<MoonIcon />
+							{theme === 'dark' ? <SunIcon /> : <MoonIcon />}
 						</Button>
 					</div>
 				</nav>

@@ -11,7 +11,7 @@ type ProjectCardProps = {
 const ProjectCard = ({ project }: ProjectCardProps) => {
 	return (
 		<Card className='col-span-2 sm:col-span-1'>
-			<CardTitle>
+			<CardTitle className='grid place-items-center'>
 				<img src={project.image} className='h-[170px]' />
 			</CardTitle>
 			<CardContent className='flex flex-col'>

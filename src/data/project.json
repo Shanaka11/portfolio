@@ -45,6 +45,13 @@
 			"source": "https://github.com/Shanaka11/exp_tracker",
 			"demo": "https://github.com/Shanaka11/IvPrep",
 			"image": "./project_extrack.png"
+		},
+		{
+			"title": "Drizzle Query Helper",
+			"description": "A lightweight library to help you write queries dynamic where conditions for queries when using drizzle.",
+			"techStack": ["TypeScript", "NPM", "Github Actions", "NodeJS"],
+			"source": "https://github.com/Shanaka11/drizzle-query-helper",
+			"image": "./project_npm.jpg"
 		}
 	]
 }

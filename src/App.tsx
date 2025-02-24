@@ -4,6 +4,8 @@ import { Button } from './components/ui/button';
 import { MoonIcon } from 'lucide-react';
 import Social from './components/custom/Social';
 import { Routes, Route, Link } from 'react-router';
+import ProjectsPage from './pages/ProjectsPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
 	return (
@@ -30,11 +32,11 @@ function App() {
 								Blog
 							</li>
 						</a>
-						<Link to='/contact'>
+						{/* <Link to='/contact'>
 							<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
 								Contact
 							</li>
-						</Link>
+						</Link> */}
 					</ul>
 					<div>
 						{/* Theame selector */}
@@ -46,8 +48,8 @@ function App() {
 			</div>
 			<Routes>
 				<Route path='/' element={<Homepage />} />
-				<Route path='/projects' element={<h1>projects</h1>} />
-				<Route path='/contact' element={<h1>Contact</h1>} />
+				<Route path='/projects' element={<ProjectsPage />} />
+				<Route path='/contact' element={<ContactPage />} />
 			</Routes>
 			<footer className='flex flex-col pb-16 items-center justify-center sm:flex-row-reverse sm:justify-between w-full md:w-2xl mx-auto px-8 md:px-0'>
 				<div className='flex gap-4 mb-8 sm:mb-0'>

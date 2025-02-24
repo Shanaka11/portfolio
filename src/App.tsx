@@ -6,8 +6,15 @@ import Social from './components/custom/Social';
 import { Routes, Route, Link } from 'react-router';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
+import { useTheme } from './components/custom/ThemeProvider';
 
 function App() {
+	const { setTheme, theme } = useTheme();
+
+	const handleThemeChange = () => {
+		setTheme(theme === 'dark' ? 'light' : 'dark');
+	};
+
 	return (
 		<>
 			<div className='sticky top-0 z-50 bg-background/75 pt-6 backdrop-blur-sm'>
@@ -40,7 +47,12 @@ function App() {
 					</ul>
 					<div>
 						{/* Theame selector */}
-						<Button variant='ghost' size='icon'>
+						<Button
+							variant='ghost'
+							size='icon'
+							onClick={handleThemeChange}
+							className='cursor-pointer'
+						>
 							<MoonIcon />
 						</Button>
 					</div>

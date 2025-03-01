@@ -14,7 +14,7 @@ const ListItem = ({ episode }: ListItemProps) => {
 			>
 				<img
 					src={episode.logo}
-					alt={episode.position}
+					alt={episode.company}
 					className='rounded-full h-13 w-13 bg-white border'
 				></img>
 			</a>
@@ -28,18 +28,6 @@ const ListItem = ({ episode }: ListItemProps) => {
 							{desc}
 						</li>
 					))}
-					{/* <li className='pr-8 text-sm'>
-						Developed Front End using React & NextJS
-					</li>
-					<li className='pr-8 text-sm'>
-						Developed Backend services using NodeJS & Typescript
-					</li>
-					<li className='pr-8 text-sm'>
-						Used Postgress and mysql to design and manage databases
-					</li>
-					<li className='pr-8 text-sm'>
-						Used lambda's to create microservices
-					</li> */}
 				</ul>
 			</div>
 		</li>

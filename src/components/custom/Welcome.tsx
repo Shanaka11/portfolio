@@ -15,7 +15,7 @@ const Welcome = () => {
 						in React, Next.js, and Node.js, freelancing across diverse projects.
 					</p>
 				</div>
-				<div className='flex gap-4 mt-2 sm:mt-0 items-center'>
+				<div className='flex gap-4 mt-2 sm:mt-0 items-center justify-between md:justify-normal'>
 					<a
 						href='/Resume_Shanaka_Abeysinghe.pdf'
 						target='_blank'

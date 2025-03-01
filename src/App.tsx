@@ -20,25 +20,21 @@ function App() {
 			<div className='sticky top-0 z-50 bg-background/75 pt-6 backdrop-blur-sm'>
 				<nav className='w-full px-8 md:w-2xl h-10 mx-auto flex justify-between items-center md:px-0'>
 					<ul className='flex gap-4'>
-						<Link to='/'>
-							<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
-								Home
-							</li>
-						</Link>
-						<Link to='/projects'>
-							<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
-								Projects
-							</li>
-						</Link>
-						<a
-							href='https://medium.com/@shanakaabeysinghe'
-							target='_blank'
-							rel='noreferrer noopener'
-						>
-							<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
+						<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
+							<Link to='/'>Home</Link>
+						</li>
+						<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
+							<Link to='/projects'>Projects</Link>
+						</li>
+						<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
+							<a
+								href='https://medium.com/@shanakaabeysinghe'
+								target='_blank'
+								rel='noreferrer noopener'
+							>
 								Blog
-							</li>
-						</a>
+							</a>
+						</li>
 						{/* <Link to='/contact'>
 							<li className='text-muted-foreground hover:text-foreground cursor-pointer'>
 								Contact
@@ -52,6 +48,8 @@ function App() {
 							size='icon'
 							onClick={handleThemeChange}
 							className='cursor-pointer'
+							role='button'
+							aria-label='Toggle theme'
 						>
 							{theme === 'dark' ? <SunIcon /> : <MoonIcon />}
 						</Button>

@@ -1,26 +1,18 @@
 {
 	"career": [
 		{
-			"time": "Mar 2022 - Present",
-			"company": "Freelancer",
-			"position": "Fullstack Developer",
-			"href": "/",
-			"logo": "./Logo.svg",
-			"descriotion": [
-				"Implemented a range of Frontend features using React, NextJS and Typescript.",
-				"Developing APIs using Node.js and Express with Typescript.",
-				"Automated tests using Jest and Vitest.",
-				"Developing and maintaining websites using HTML, CSS, and JavaScript.",
-				"Managed PostgreSQL, MySQL databasese using drizzle and prisma."
-			]
-		},
-		{
-			"time": "Nov 2021 - Feb 2025",
+			"time": "Feb 2021 - Jan 2025",
 			"company": "Axcenze",
-			"position": "IFS Technical Consultant",
+			"position": "Senior Software Engineer",
 			"href": "https://www.axcenze.com/",
 			"logo": "./axcenze_logo.jpeg",
 			"descriotion": [
+				"Implemented a range of Frontend features using React, NextJS and Typescript.",
+				"Created Complex web applications using the .NET framework using C# abd Blzor / Razor",
+				"Developing APIs using Node.js and Express with Typescript.",
+				"Automated tests using XUnit, Jest and Vitest.",
+				"Developing and maintaining websites using HTML, CSS, and JavaScript.",
+				"Managed PostgreSQL, MySQL databasese using drizzle and prisma.",
 				"Developed customizations on CAMRO product of IFS Cloud",
 				"Implemented integrations between IFS and Zatca E-Invoice system"
 			]

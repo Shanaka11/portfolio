@@ -1,6 +1,20 @@
 {
 	"projects": [
 		{
+			"title": "JTrack",
+			"description": "A simple web platform built using react to keep track and manage your job applications.",
+			"techStack": [
+				"React",
+				"TypeScript",
+				"React Router",
+				"Tailwind CSS",
+				"vercel"
+			],
+			"demo": "https://jtrack-phi.vercel.app/",
+			"source": "https://github.com/Shanaka11/jtrack",
+			"image": "./jTrack.png"
+		},
+		{
 			"title": "Portfolio",
 			"description": "A minimalistic portfolio website to showcase my work. built using react and typescript",
 			"techStack": [
